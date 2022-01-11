@@ -19,7 +19,7 @@ def stepFunction(soma):
 
 ##Calcula a saída das entradas
 def calculaSaida(registro):
-    s = registro.dot(pesos) ##Pega os registros (entradas) multiplica e soma pelos pesos
+    s = registro.dot(pesos) ##Pega os registros (entradas) multiplica e soma pelos pesos*
     return stepFunction(s)
 
 ##Interage com as entradas e as saídas esperadas e ajusta os pesos
