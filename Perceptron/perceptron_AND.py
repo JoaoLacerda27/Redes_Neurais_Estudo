@@ -1,7 +1,13 @@
 import numpy as np
 
+## AND ##
+#entradas = np.array([[0,0],[0,1],[1,0],[1,1]]) ##Matriz operador lógico AND
+#saidas = np.array([0,0,0,1]) ##Saídas esperadas
+
+## OR ##
 entradas = np.array([[0,0],[0,1],[1,0],[1,1]]) ##Matriz operador lógico AND
-saidas = np.array([0,0,0,1]) ##Saídas esperadas
+saidas = np.array([0,1,1,1]) ##Saídas esperadas
+
 pesos = np.array([0.0, 0.0]) ##Pesos iniciais de cada sinapse
 taxaAprendizagem = 0.1
 
